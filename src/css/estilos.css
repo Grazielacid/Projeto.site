@@ -1,0 +1,222 @@
+body, h1, h2, p, ul, li {
+    margin: 5px;
+    padding: 5px;
+    color: #606c38;
+    font-family: "Poppins-Light";
+}
+
+body {
+    background: linear-gradient(150deg, #FEFAE0, #DDA15E);
+    background-size: 120% 12    0%;
+}
+
+header {
+    font-family: "Poppins-Light", Arial;
+    background-color: #FEFAE0;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.cabecalho img {
+    max-width: 85%;
+    height: auto;
+    margin-bottom: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 90px;
+}
+
+nav ul li a {
+    color: #BC6C25;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.agendamento {
+    color: #283618;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FEFAE0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.agendamento h2 {
+    margin-bottom: 20px;
+}
+
+.agendamento form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.agendamento label {
+    font-weight: bold;
+}
+
+.agendamento input[type="text"],
+.agendamento input[type="email"],
+.agendamento input[type="tel"],
+.agendamento input[type="date"],
+.agendamento select,
+.agendamento textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DDA15E;
+    border-radius: 10px;
+}
+
+.agendamento select {
+    appearance: none;
+}
+
+.agendamento textarea {
+    resize: vertical;
+}
+
+.agendamento button {
+    width: 100%;
+    padding: 10px;
+    background-color: #606c38;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.agendamento button:hover {
+    background-color: #283618;
+}
+
+.contato {
+    background-color: #FEFAE0;
+    margin-top: 30px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.contato a i {
+    color: #606c38;
+    font-size: 20px;
+}
+
+.contato h2 {
+    margin-bottom: 20px;
+}
+
+.sobre {
+    font-size:large;
+    background-color: #FEFAE0;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 15%;
+    
+}
+
+.sobre h2 {
+    margin-bottom: 20px;
+}
+
+.scroll {
+    width: 900px;
+    height: 600px;
+    background-color: #FEFAE0;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: #f0c197;
+    margin: auto;
+    overflow: auto;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.avalie {
+    background-color: #FEFAE0;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+textarea {
+    flex: 1;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 20px;
+    color: #283618;
+}
+
+button {
+    background-color: #606C38;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #283618;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #606C38;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #283618;
+}
+
+.material-icons {
+    padding: 0;
+    color: #BC6C25;
+}
+
+footer {
+    font-family: Arial;
+    background-color: #354621;
+    text-align: center;
+    padding: 25px;
+    color: #f9f7f3;
+}
