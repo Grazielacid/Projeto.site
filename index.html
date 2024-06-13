@@ -7,6 +7,7 @@
     <title>Clinica Er</title>
     <link rel="stylesheet" href="./src/css/estilos.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/js/index.js">
 
     <link rel="stylesheet" href="./src/fontes/Poppins-Light.otf">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
@@ -28,13 +29,14 @@
                 <li><a href="#contato">Contato</a></li>
                 <li><a href="#sobre">Sobre nós</a></li>
                 <li><a href="#avaliacoes">Avaliações</a></li>
+                <li><a href="#perguntas"></a></li>
             </ul>
         </nav>
     </header>
 
     <section class="agendamento" id="agendamento">
         <h2>Agendamento</h2>
-        <form action="https://formspree.io/f/xgegrbej" method="post">
+        <form name="contact" netlify>
         <div>
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>

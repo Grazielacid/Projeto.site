@@ -1,13 +1,13 @@
 body, h1, h2, p, ul, li {
     margin: 5px;
     padding: 5px;
-    color: #606c38;
+    color: #505c29;
     font-family: "Poppins-Light";
 }
 
 body {
     background: linear-gradient(150deg, #FEFAE0, #DDA15E);
-    background-size: 120% 12    0%;
+    background-size: 120% 120%;
 }
 
 header {
